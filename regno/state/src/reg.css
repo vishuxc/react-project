@@ -1,0 +1,25 @@
+
+table{
+    border: 1px solid #ccc;
+    border-collapse:collapse ;
+}
+table td{
+    border: 1px solid #ccc;
+    padding: 5px 10px;
+}
+table td:first-child{
+    font-weight: 600;
+}
+from {
+    width: 250px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+}
+.select-div{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
