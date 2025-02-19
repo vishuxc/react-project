@@ -1,0 +1,145 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #e3f2fd;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 380px;
+    padding: 20px;
+    background: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+
+.input-container {
+    display: flex;
+    align-items: center;
+    border: 2px solid #2196f3;
+    border-radius: 10px;
+    overflow: hidden;
+    background: #f8f9fa;
+}
+
+.cityinput {
+    flex: 1;
+    height: 40px;
+    border: none;
+    font-size: 16px;
+    padding: 10px;
+    outline: none;
+    background: transparent;
+}
+
+
+.search-icon {
+    padding: 10px;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+
+.search-icon:hover {
+    background-color: #2196f3;
+    border-radius: 5px;
+}
+
+.search-icon img {
+    width: 25px;
+}
+
+
+.image {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.image img {
+    width: 120px;
+    height: 120px;
+}
+
+
+.temp {
+    font-size: 36px;
+    font-weight: bold;
+    color: #212121;
+    margin-top: 10px;
+}
+
+.location {
+    font-size: 28px;
+    font-weight: 600;
+    color: #ff9800;
+    text-transform: capitalize;
+}
+
+.country {
+    font-size: 18px;
+    font-weight: 500;
+    color: #4caf50;
+}
+
+
+.cord {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 15px;
+    font-size: 14px;
+    color: #555;
+}
+
+.cord div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5px;
+}
+
+
+.data-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    padding: 10px;
+    background: #f8f9fa;
+    border-radius: 10px;
+}
+
+.element {
+    text-align: center;
+}
+
+.icon {
+    width: 40px;
+    height: 40px;
+}
+
+.humidity-percent, .wind-percent {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+}
+
+.text {
+    font-size: 14px;
+    color: #666;
+}
+
+
+.loading {
+    margin-top: 15px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #ff5722;
+}

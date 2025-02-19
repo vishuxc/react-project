@@ -1,0 +1,139 @@
+* {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f1f1f1;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bmi-calculator {
+    width: 800px;
+    height: 500px;
+    display: flex;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    align-items: center;
+}
+
+.box {
+    width: 350px;
+    height: 100%;
+    background-image: url("D:/React js/bmi-calculator/src/assets/new.avif");
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 8px;
+}
+
+
+.data {
+    flex: 1;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+h1 {
+    font-weight: 700;
+    margin-bottom: 20px;
+    padding: 10px 0px;
+    text-transform: uppercase;
+    font-size: 20px;
+    color: blue;
+    text-align: center;
+}
+
+
+.input-container {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    color: rgb(19, 119, 220);
+    font-weight: 600;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+
+
+.button-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px; 
+    margin-top: 15px;
+}
+
+
+button {
+    width: 50%;
+    background-color: royalblue;
+    color: #fff;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+}
+
+
+button:hover {
+    background-color: blue;
+}
+
+
+.data button:nth-of-type(2) {
+    background-color: red;
+}
+
+.data button:nth-of-type(2):hover {
+    background-color: darkred;
+}
+
+
+
+.result {
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+    background-color: #f9f9f9;
+}
+
+.result p {
+    margin: 10px 0;
+    color: #555;
+}
+
+.result p:first-child {
+    color: rgb(93, 93, 159);
+    font-weight: 700;
+    font-size: 18px;
+}
+.error{
+color: red;
+font-size: 14px;
+margin-bottom: 10px;
+
+}
