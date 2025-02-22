@@ -1,0 +1,120 @@
+/* General Styling */
+body {
+  font-family: 'Inter', sans-serif; /* Clean and modern font */
+  background-color: #f4f4f4;
+  color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  height: 100vh;
+  margin: 0;
+  padding-top: 50px; /* Added top gap */
+}
+
+
+.password-genrate {
+color: #0056b3;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  width: 400px;
+  font-weight: 600;
+  
+}
+.input-group label{
+  display: block;
+  font-weight: bold;
+  margin-bottom:10px ;
+}
+input[type="number"]{
+  width: 100%;
+  padding: 10px;
+  border:1px solid #ccc;
+  border-radius: 4px;
+}
+
+
+.password-genrate h1 {
+  font-size: 24px;
+  margin-bottom: 25px;
+  color: #021529;
+  
+}
+
+
+.input-group,.checkbox-group,.generate-password{
+  margin-bottom:15px ;
+}
+.checkbox-group {
+  display: flex;
+  align-items: center;
+  margin-bottom: 12px;
+  gap: 10px;
+}
+
+.checkbox-group input {
+  width: 18px;
+  height: 18px;
+  cursor: pointer;
+}
+
+.checkbox-group label {
+  font-size: 14.5px;
+  color: #555;
+}
+
+/* Generate Button */
+.generate-btn {
+  width: 100%;
+  padding: 12px;
+  margin-top: 20px;
+  border: none;
+  border-radius: 6px;
+  background: #007bff;
+  color: white;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+
+.generate-btn:hover {
+  background: #0056b3;
+}
+
+/* Password Display */
+.generate-password {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+  border: 1px solid #007bff;
+  padding: 10px;
+  border-radius: 6px;
+  background: #f9f9f9;
+}
+
+.generate-password input {
+  width: 80%;
+  background: transparent;
+  border: none;
+  color: #333;
+  font-size: 16px;
+  outline: none;
+  font-weight: 500;
+}
+
+.copy-btn {
+  background: #28a745;
+  border: none;
+  padding: 7px 14px;
+  border-radius: 4px;
+  color: white;
+  cursor: pointer;
+  font-size: 14px;
+  transition: 0.3s ease-in-out;
+}
+
+.copy-btn:hover {
+  background: #218838;
+}
